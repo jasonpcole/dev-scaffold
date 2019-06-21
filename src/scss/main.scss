@@ -1,0 +1,10 @@
+@import 'reset'; // meyer reset in scss
+@import 'font-family'; // list of stacks
+@import 'vars'; // colors, fonts, grid units
+@import 'mixins'; // helpers and such
+@import 'base'; // elements base coat
+//@import 'layout'; // element layout styles
+
+h1 {
+	@include image-replacement($main-logo-image-path, '297px', '148px')
+}

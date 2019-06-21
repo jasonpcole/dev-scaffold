@@ -1,0 +1,18 @@
+/**
+		MIXINS AND HELPERS
+**/
+
+// Name: image-replacement
+// Desc: Styling for replacing text with a background image
+@mixin image-replacement($imgPath, $imgWidth, $imgHeight) {
+	background: url(imgPath) 0 0 no-repeat;
+	display: block;
+	height: $imgHeight;
+	text-indent: -9999px;
+	width: $imgWidth;
+}
+
+// @mixin gradient
+
+// @helper color scheme creator
+

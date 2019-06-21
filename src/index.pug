@@ -1,0 +1,20 @@
+- var title = "Development Scaffold!"
+- var subtitle = "This is where it's gonna go"
+html
+	head
+		title= title
+		include views/styles.pug
+	body
+		nav
+			ul
+				each val in ['home', 'about', 'gallery', 'contact']
+					li
+						a(href=`${val}`) #{val}
+		#branding
+			h1= title
+			h2= subtitle
+		#main
+			h3 Main section title goes here
+			p Lou ran hip san diego nightclubs from his bathroom bathrobe...
+		footer
+			p (c) D. Scaffold 2020

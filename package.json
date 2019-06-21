@@ -1,0 +1,36 @@
+{
+  "name": "dev-scaffold",
+  "version": "0.0.1",
+  "description": "The bones and ligaments.",
+  "main": "./src/app.js",
+  "scripts": {
+    "prod": "npm-run-all scss prod:build",
+    "dev": "npm-run-all --parallel dev:* scss:watch",
+    "scss": "node-sass src/scss/main.scss -o dist/css/",
+    "scss:watch": "node-sass -w src/scss/main.scss -o dist/css/",
+    "prod:build": "webpack --mode=production",
+    "dev:build": "webpack --mode=development",
+    "dev:serve": "webpack-dev-server --mode=development"
+  },
+  "author": "Jason P. Cole <veil.the@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webpack": "^4.1.0",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  }
+}

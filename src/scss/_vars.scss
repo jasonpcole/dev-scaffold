@@ -1,0 +1,25 @@
+/**
+		VARIABLES
+**/
+
+// COLORS
+
+$main-color: rgba(102, 102, 51);
+$secondary-color: complement($main-color);
+$tertiary-color: saturate($secondary-color, 50%);
+
+$main-text-color: darken($main-color, 50%);
+$secondary-text-color: darken($secondary-color, 25%);
+
+// WIDTHS
+
+$width: 1366px;
+$margin: $width * 0.2;
+
+// TEXT
+
+$base-text-size: 21px;
+
+// PATHS
+
+$main-logo-image-path: './images/l_base-site.png';
