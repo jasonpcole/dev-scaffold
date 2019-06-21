@@ -1,10 +1,10 @@
 # dev-scaffold
 A simple Front-end development project springboard. Pug, SASS, and ES6 are yours to use with impunity. 
 
-Build tasks are handled by NPM and Webpack. We got Babel transpiling your ECMAScript, so const your arrow funcs ya module classhole. There's even a dev process that'll spin up a local server for testing whatever freaky new feature you're building for animedolphinbukkake.edu. The live build process uglytranspminifbundlicates everything into a looming obelisk of code, towering over all who dare gaze upon it's monolithic gorgeousness; like an electrical panther seventy stories tall that shoots laser beams from it's eyes, anihillating everything it gifts its gaze upon with a bowel churning feline raowl that quakes the ground for miles and miles. 
+Build tasks are handled by NPM and Webpack. We got Babel transpiling your ECMAScript, so const your arrow funcs ya module classhole. There's even a dev process that'll spin up a local server for testing whatever freaky new feature you're building for animedolphinbukkake.edu. The live build process uglytranspminifbundlicates everything into a looming obelisk of code, towering over all who dare gaze upon it's monolithic gorgeousness; like an electrical panther seventy stories tall that shoots laser beams from it's eyes, annihilating everything it gifts its gaze upon with a bowel churning feline raowl that quakes the ground for miles and miles. 
 
 ## Motivation
-Initially setting up all the codes and build processes is a drag, especially when you have an idea that needs coding NOW. Grunt/Gulp/etc are great at what they do, but for a less-formal project it seems easier to remove that layer of obsfucation and use the NPM Cli via the package.json file. 
+Initially setting up all the codes and build processes is a drag, especially when you have an idea that needs coding NOW. Grunt/Gulp/etc are great at what they do, but for a less-formal project it seems easier to remove that layer of obfuscation and use the NPM Cli via the package.json file. 
 
 ## Logo goes here
 
@@ -24,9 +24,6 @@ Initially setting up all the codes and build processes is a drag, especially whe
 3. Pug templates
 4. Image minification
 5. Dev Server for local testing.
-
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 ## Installation
 Download the .babelrc, .gitignore, package.json, and webpack.config.js files.
